@@ -21,3 +21,9 @@ p.new {
     color: blue;
 }
 
+.main .box h1::before {
+    content: "\25C8 ";
+    color: #b91400;
+    font-weight: bold;
+    margin-right: .25rem;
+}
